@@ -1,0 +1,29 @@
+.character-card {
+  background-color: var(--mystery);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.character-info {
+  padding: 1rem;
+  background-color: var(--texas);
+}
+
+.character-info h3 {
+  color: var(--tardis-blue);
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.character-info p {
+  color: var(--calla-green);
+  margin: 0.25rem 0;
+}

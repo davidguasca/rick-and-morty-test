@@ -1,0 +1,88 @@
+:root {
+    --mystery: #0d1b2a;
+    --kiwi-green: #a8e6cf;
+    --tardis-blue: #0d3b66;
+    --calla-green: #5fdec8;
+    --rick-green: #97ce4c;
+    --portal-green: #15db95;
+    --dark-gray: #2e2e2e;
+    --white: #ffffff;
+  }
+  
+  .character-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    padding: 2rem;
+  }
+  
+  .character-detail-card {
+    background-color: var(--mystery);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .character-image {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .character-info {
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .character-name {
+    color: var(--portal-green);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .back-button {
+    background-color: var(--rick-green);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: var(--portal-green);
+  }
+  
+  .character-details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .detail-label {
+    color: var(--portal-green);
+    font-weight: bold;
+  }
+  
+  .detail-value {
+    color: var(--calla-green);
+  }
+  

@@ -1,0 +1,21 @@
+.header {
+    background-color: #043c6e;
+    padding: 15px ;
+    margin-bottom: 14px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  .header-title {
+    text-decoration: none; 
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    justify-items: left;
+  }
+  
+  
